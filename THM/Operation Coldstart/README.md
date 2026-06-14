@@ -199,7 +199,9 @@ if p == "notes":
 ```
 So it means it should have the endpoint `/admin/notes`
 When I visit the web both `/admin/` and `/admin/notes`, they both show the 403 forbidden
-![[../assets/Pasted image 20260614212703.png]]
+
+![Pasted image 20260614212703](../assets/Pasted%20image%2020260614212703.png)
+
 In the code I see the `target` var get input from user from the route /preview
 ```python
 @app.route("/preview")
@@ -286,7 +288,7 @@ user: webdev
 pass: V0ltLabs#summer
 ```
 
-![[../assets/Pasted image 20260614214723.png]]
+![Pasted image 20260614214723](../assets/Pasted%20image%2020260614214723.png)
 
 ```bash
 webdev@coldstart:~$ whoami
